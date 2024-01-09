@@ -1,0 +1,62 @@
+# odev_uc
+Ders 4 Ödev 3
+
+XML, YAML ve JSON formatlarında örnek personel nesnesi oluşturun.
+
+--- XML ---
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<personeller>
+  <personel id="1">
+      <ad>Cansu</ad>
+      <soyad>Sahin Namli</soyad>
+      <girisyili>2018</girisyili>
+  </personel>
+</personeller>
+<personeller>
+  <personel id="2">
+      <ad>Naim</ad>
+      <soyad>Namli</soyad>
+      <girisyili>2020</girisyili>
+  </personel>
+</personeller>
+
+
+
+
+
+--- JSON ---
+{
+"personel" : [
+{
+"id" : "1",
+"ad" : "cansu",
+"soyad" : "sahin namli",
+"girisyili" : "2018"
+},
+{
+"id" : "2",
+"ad" : "naim",
+"soyad" : "namli",
+"girisyili" : "2020"
+}
+
+]
+
+}
+
+
+
+
+
+YAML
+#son örnek YAML
+
+personel:
+  id : 1
+  ad : cansu
+  soyad : sahin namli
+  girisyili : 2018
+  
+
+
+
