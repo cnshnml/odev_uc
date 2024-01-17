@@ -1,0 +1,18 @@
+{
+"personel" : [
+{
+"id" : "1",
+"ad" : "cansu",
+"soyad" : "sahin namli",
+"girisyili" : "2018"
+},
+{
+"id" : "2",
+"ad" : "naim",
+"soyad" : "namli",
+"girisyili" : "2020"
+}
+
+]
+
+}
